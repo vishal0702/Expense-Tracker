@@ -3,7 +3,7 @@ import Card from '../UI/Card';
 import ExpenseDate from './ExpenseDate';
 import './ExpenseItem.css';
 
-function ExpenseItem(props) {
+const  ExpenseItem = (props) => {
 
     // const expenseDate= new Date(2023, 1, 27);
     // const expenseTitle= 'Car Insurance';

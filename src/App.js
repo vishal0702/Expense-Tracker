@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 // import ExpenseItem from "./components/ExpenseItem";
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expenses/Expenses";
 
 import "./App.css";
 import React from "react";

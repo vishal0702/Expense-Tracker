@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 // import ExpenseItem from "./components/ExpenseItem";
 import Expenses from "./components/Expenses/Expenses";
+import NewExpense from "./components/NewExpense/NewExpense";
 
 import "./App.css";
 import React from "react";
@@ -31,7 +32,7 @@ const App = () => {
   //JSX Code
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <NewExpense/>
       <Expenses items={expenses} />
     </div>
   );
